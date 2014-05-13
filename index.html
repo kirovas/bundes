@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>HTML framework title</title>
+    <meta name="description" content="HTML framework description">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="css/general.css">
+	<!-- Google fonts -->
+	<link href='http://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700,300italic,400italic,500italic,700italic|Oswald:400,300,700&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+	<!-- Font awesome -->
+	<link rel="stylesheet" href="css/font-awesome.css">
+    <!-- Modernizr -->
+    <script type='text/javascript' src='js/libs/modernizr-2.5.3.min.js'></script>
+
+    <!-- Semantic HTML5 Support on old IE -->
+    <!--[if IE]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+</head>
+<body>
+    <!-- Header Section. If need a menu section, use tag: <nav> -->
+	<div class="slider">
+		<div class="flexslider">
+			<ul class="slides">
+				<li>
+					<img src="css/images/slider.jpg" />
+				</li>
+				<li>
+					<img src="css/images/slider.jpg" />
+				</li>
+			</ul>
+		</div>
+	</div>
+    <header>
+		<div class="top">
+			<div class="container">
+				<div class="col-12">
+				  <div class="col-2">
+					<div class="logo"><img src="css/images/logo.png" /></div>
+				  </div>
+					<nav id="top-menu">
+						<ul class="clearfix">
+							<li><a href="#">about</a></li>
+							<li><a href="#">team</a></li>
+							<li><a href="#">video</a></li>
+							<li><a href="#">blog</a></li>
+							<li><a href="#">club</a></li>
+							<li><a href="#">gallery</a></li>
+							<li><a href="#">contacts</a></li>
+							
+						</ul>
+						<a href="#" id="pull">Menu</a>
+					</nav>
+					<div class="login">
+						<a href="#"><span id="icon-user">log in</span></a><a href="#"><span>register</span></a>
+					</div>
+				</div>
+			</div>
+		</div>
+    </header>
+	
+    <!-- Content Section. If need sidebars use the tag: <aside>. If articles use tag: <article> -->
+    <section id="m-a-n">
+	<div class="container">
+		<div class="col-8">
+			<div class="tab">matches</div>
+			<div class="match">
+				<div class="col-6">
+					<div class="m-img"><img src="css/images/bayern.jpg" /></div>
+				</div>
+				<div class="col-6">
+					<div class="m-img"><img src="css/images/arsenal.jpg" /></div>
+				</div>
+				<div class="m-result">
+				<div class="logo-club"><img src="css/images/logo-bayern.png"/></div>
+				<span class="result">0 : 3</span>
+				<div class="logo-club"><img src="css/images/logo-arsenal.png"/></div>
+				<div class="club-name">
+				<span>bayern</span>
+				<div class="match-name">Champions League Semi-final <br> 25 May 23:00</div>
+				<span>arsenal</span>
+				</div>
+				</div>
+			</div>
+			<div class="a-games">
+				<ul class="clearfix">
+					<li><span class="text-right">FC Bayern München</span><span class="d-g">14 Apr 21:45</span><span class="text-left">Borussia M'gladbach</span></li>
+					<li><span class="text-right">Eintracht Frankfurt</span><span class="d-g">14 Apr 21:45</span><span class="text-left">FC Bayern München</span></li>
+					<li><span class="text-right">FC Bayern München</span><span class="d-g">14 Apr 21:45</span><span class="text-left">Hoffenheim</span></li>
+					<li><span class="text-right">FC Bayern München</span><span class="d-g">14 Apr 21:45</span><span class="text-left">VfB Stuttgart</span></li>
+				</ul>
+			</div>
+		</div>
+		<div class="col-4">
+			<div class="tab">news</div>
+			<div class="tab-small"><a href="#">see all news</a></div>
+			<div class="r-box-n">
+				<article>
+					<h3><a href="#">Rangers review presents stark picture</a></h3>
+					<p>Praesent risus nisi, iaculis nec condimentum vel, rhoncus vel dolor. Aenean nisi lectus, varius nec tempus</p>
+					<span class="date-n">21 Mar</span>
+				</article>
+				<article>
+					<h3><a href="#">Rangers review presents stark picture</a></h3>
+					<p>Praesent risus nisi, iaculis nec condimentum vel, rhoncus vel dolor. Aenean nisi lectus, varius nec tempus</p>
+					<span class="date-n">21 Mar</span>
+				</article>
+				<article>
+					<h3><a href="#">Rangers review presents stark picture</a></h3>
+					<p>Praesent risus nisi, iaculis nec condimentum vel, rhoncus vel dolor. Aenean nisi lectus, varius nec tempus</p>
+					<span class="date-n">21 Mar</span>
+				</article>
+			</div>
+		</div>
+    </div>
+	</section>
+	<!-- section for teaser -->
+	<section >
+	  <div class="container">
+		<div id="teaser">
+		<h2>There are many variations of passages
+<span>of Lorem Ipsum available</span></h2>
+<p>If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary.</p>
+<a href="#" class="btn btn-red">read more</a>
+	    </div>
+	  </div>
+	</section>
+	<section id="video">
+	<div class="container">
+		
+			<div id="v-tabs">
+			
+			<ul class="clearfix">
+            <li><i class="fa fa-play"></i><a href="#section-1" >The title hunt in Europe's top leagues<span>14:59  |  Press conference</span></a></li>
+            <li><i class="fa fa-play"></i><a href="#section-2" >The title hunt in Europe's top leagues<span>14:59  |  Press conference</span></a></li>
+            <li><i class="fa fa-play"></i><a href="#section-3" >The title hunt in Europe's top leagues<span>14:59  |  Press conference</span></a></li>
+            <li><i class="fa fa-play"></i><a href="#section-4" >The title hunt in Europe's top leagues<span>14:59  |  Press conference</span></a></li>
+			</ul>
+			
+			
+			<div id="section-1" class="tab-content"><img src="css/images/video.jpg" /></div>
+			<div id="section-2" class="tab-content"><img src="css/images/video.jpg" /></div>
+			<div id="section-3" class="tab-content"><img src="css/images/video.jpg" /></div>
+			<div id="section-4" class="tab-content"><img src="css/images/video.jpg" /></div>
+			
+			</div>
+		<div class="players">
+			<div class="col-4">
+				<div class="our">
+					<h3><span>our</span> players</h3>
+				</div>
+				<div class="all-team">
+					<a href="#">View all team ›</a>
+				</div>
+			</div>
+			<div class="col-8">
+				<div class="slider1">
+				  <div class="slide col-4"><img src="css/images/player1.jpg" /><div class="player-name"><a href="#">Jan Kirchhoff</a><p>Defender</p></div></div>
+				  <div class="slide col-4"><img src="css/images/player2.jpg" /><div class="player-name"><a href="#">Jerome Boateng</a><p>Defender</p></div></div>
+				  <div class="slide col-4"><img src="css/images/player3.jpg" /><div class="player-name"><a href="#">Tom Starke</a><p>Goalkeeper</p></div></div>
+				  <div class="slide col-4"><img src="css/images/player4.jpg" /><div class="player-name"><a href="#">Philipp Lahm</a><p>Defender</p></div></div>
+  
+</div>
+			</div>
+		</div>
+		
+	</div>
+	</section>
+	<!-- twiter, blog, table -->
+	<section id="ttb">
+		<div class="container">
+			<div class="col-4">
+				<div class="twiter">
+					<div class="tw-title"><h3>Latest twits</h3></div>
+					<ul class="clearfix t-post">
+						<li>The generated Lorem Ipsum is therefore always free from repetition, injected humour
+							<a href="#">@Equipo<span> 1 day ago</span></a></li>
+						<li>The generated Lorem Ipsum is therefore always free from repetition, injected humour
+							<a href="#">@Equipo<span> 1 day ago</span></a></li>
+						<li>The generated Lorem Ipsum is therefore always free from repetition, injected humour
+							<a href="#">@Equipo<span> 1 day ago</span></a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="col-4">
+				<div class="blog-s">
+					<div class="bl-title"><h3>Blog  \  <a href="#">Open blog ›</a></h3></div>
+					<div class="s-post">
+						<div class="post-img"><img src="css/images/post1.jpg"/></div>
+						<h3><a href="#"><span>Rangers review presents stark picture</span></a></h3>
+					</div>
+					<div class="s-post">
+						<div class="post-img"><img src="css/images/post2.jpg"/></div>
+						<h3><a href="#"><span>Police probe Rangers cash statements</span></a></h3>
+					</div>
+					<div class="s-post">
+						<div class="post-img"><img src="css/images/post3.jpg"/></div>
+						<h3><a href="#"><span>Check out the latest bundes liga news </span></a></h3>
+					</div>
+				</div>
+			</div>
+			<div class="col-4">
+				<div class="liga-t">
+					<div class="bu-title"><h3>Bundes Liga</h3></div>
+					<table class="table-striped">
+						<tr class="t-h"><td class="t-c">Pos</td><td>Club</td><td>Pld</td><td>Pts</td></tr>
+						<tr><td class="t-c">1</td><td>FC Bayern München</td><td>36</td><td>81</td></tr>
+						<tr><td class="t-c">2</td><td>Borussia Dortmund</td><td>36</td><td>76</td></tr>
+						<tr><td class="t-c">3</td><td>FC Schalke 04</td><td>34</td><td>74</td></tr>
+						<tr><td class="t-c">4</td><td>Bayer 04 Leverkusen</td><td>35</td><td>70</td></tr>
+						<tr><td class="t-c">5</td><td>VfL Wolfsburg</td><td>36</td><td>69</td></tr>
+						<tr><td class="t-c">6</td><td>FSV Mainz</td><td>36</td><td>66</td></tr>
+						<tr><td class="t-c">7</td><td>Borussia M.</td><td>35</td><td>60</td></tr>
+						<tr><td class="t-c">8</td><td>FC Augsburg</td><td>35</td><td>52</td></tr>
+						<tr><td class="t-c">9</td><td>1899 Hoffenheim</td><td>35</td><td>46</td></tr>
+						<tr><td class="t-c">10</td><td>Hertha Berlin</td><td>35</td><td>44</td></tr>
+					</table>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section id="partner">
+	<div class="container">
+		<div class="p-l">
+			<div class="col-2"><a href="#"><img src="css/images/luco.png" /></a></div>
+			<div class="col-2"><a href="#"><img src="css/images/nike.png" /></a></div>
+			<div class="col-2"><a href="#"><img src="css/images/indesit.png" /></a></div>
+			<div class="col-2"><a href="#"><img src="css/images/o2.png" /></a></div>
+			<div class="col-2"><a href="#"><img src="css/images/carl.png" /></a></div>
+			<div class="col-2"><a href="#"><img src="css/images/huawei.png" /></a></div>
+		</div>
+	</div>
+	</section>
+    <!-- Footer Section -->
+    <footer>
+		<div class="container">
+			<div class="col-2"><a href="#"><img src="css/images/footer-logo.png" /></a></div>
+			<div class="col-6">
+				<p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</p>
+			<div class="col-6">
+				<div class="social-icon">
+					<ul id="social">
+						<li><a href="#"><img src="css/images/soc-twitter.png" /></a></li>
+						<li><a href="#"><img src="css/images/soc-facebook.png" /></a></li>
+						<li><a href="#"><img src="css/images/soc-g.png" /></a></li>
+						<li><a href="#"><img src="css/images/soc-play.png" /></a></li>
+					</ul>
+				</div>
+			</div><div class="col-6"><p>© 2014  - All Rights Reserved </p></div>
+			</div>
+			<div class="col-2">
+			<h3>Information</h3>
+				<ul >
+					<li><a href="#">About club</a></li>
+					<li><a href="#">Our team</a></li>
+					<li><a href="#">Registration</a></li>
+					<li><a href="#">Features</a></li>
+					<li><a href="#">404 page</a></li>
+
+				</ul>
+			</div>
+			<div class="col-2">
+			<h3>Support</h3>
+				<ul>
+					<li><a href="#">Terms of Service</a></li>
+					<li><a href="#">Security</a></li>
+					<li><a href="#">Privacy PolicyHomepage</a></li>
+					<li><a href="#">Sitemap</a></li>
+					<li><a href="#">FAQ</a></li>
+				</ul>
+			</div>
+		</div>
+    </footer>
+
+    <!-- Libs -->
+    <script src="js/libs/jquery-1.10.2.min.js"></script>
+    <script type='text/javascript' src='js/libs/jquery.flexslider-min.js'></script>
+	<script src="http://code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
+	<script src="js/jquery.bxslider.min.js"></script>
+    <!-- Custom -->
+    <script src="js/scripts.js"></script>
+</body>
+</html>
