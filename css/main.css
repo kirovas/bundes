@@ -103,6 +103,9 @@ body {
   min-height: 1000px;
   font-family: 'Ubuntu', sans-serif;
 }
+a:visited {
+  color: inherit;
+}
 /* Clearfix */
 .clearfix:before,
 .clearfix:after {
@@ -1280,6 +1283,9 @@ footer h3 {
 }
 footer ul li {
   line-height: 24px;
+}
+footer ul li a {
+  color: #4c6d8e;
 }
 footer ul li a:hover {
   text-decoration: underline;
