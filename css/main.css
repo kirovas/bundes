@@ -811,6 +811,12 @@ ul.t-post li a span {
   text-align: center;
   background: url(images/big-shadow.png) no-repeat center bottom;
 }
+.p-l img {
+  opacity: 0.5;
+}
+.p-l img:hover {
+  opacity: 1;
+}
 /*##################################################################################### 
 			HOME -> BLOG 
 #######################################################################################*/
