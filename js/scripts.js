@@ -7,7 +7,7 @@ jQuery(function($) {
 });
 $(function() {
 			var pull 		= $('#pull');
-				menu 		= $('#top-menu ul');
+				menu 		= $('#top-menu ul.clearfix');
 				menuHeight	= menu.height();
 
 			$(pull).on('click', function(e) {
@@ -37,4 +37,14 @@ $(window).load(function() {
 	pager: false,
     slideMargin: 0
   });
+});
+$(document).ready(function(){
+$(".dropdown").mouseover(function () {
+    
+$(this).find(".dropdown-menu").slideDown('slow');
+});
+
+$(".dropdown").mouseleave(function () {
+    $(this).find(".dropdown-menu").slideUp('slow');
+});
 });
