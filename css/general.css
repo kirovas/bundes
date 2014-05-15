@@ -1493,6 +1493,9 @@ article.blog-item {
 .post-nav li a:hover {
   color: #fff;
 }
+.post-nav li:first-child {
+  border-right: 1px solid #0f2c46;
+}
 .post-title {
   padding: 60px 40px;
   background: #8d9daa;
