@@ -901,10 +901,12 @@ article.blog-item {
   position: relative;
 }
 .b-desc h3 {
-  color: #0f314d;
   text-transform: initial;
   font-weight: 700;
   margin-bottom: 35px;
+}
+.b-desc h3 a {
+  color: #0f314d;
 }
 .b-desc h3 a:hover {
   color: #da0040;
