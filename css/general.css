@@ -2319,6 +2319,11 @@ footer ul li a:hover {
   #pull-blog {
     display: block;
   }
+  /* TABS  */
+  #tab ul > li {
+    width: 110%;
+    margin-left: -8px;
+  }
   .top {
     height: auto;
   }
@@ -2368,6 +2373,11 @@ footer ul li a:hover {
   }
   #pull-blog {
     display: block;
+  }
+  /* TABS  */
+  #tab ul > li {
+    width: 110%;
+    margin-left: -8px;
   }
   .top {
     height: auto;

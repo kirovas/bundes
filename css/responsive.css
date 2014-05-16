@@ -239,6 +239,11 @@
   #pull-blog {
     display: block;
   }
+  /* TABS  */
+  #tab ul > li {
+    width: 110%;
+    margin-left: -8px;
+  }
   .top {
     height: auto;
   }
@@ -288,6 +293,11 @@
   }
   #pull-blog {
     display: block;
+  }
+  /* TABS  */
+  #tab ul > li {
+    width: 110%;
+    margin-left: -8px;
   }
   .top {
     height: auto;
