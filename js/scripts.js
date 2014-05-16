@@ -23,19 +23,19 @@ $(function() {
     		});
 		});
 $(function() {
-			var pull 		= $('#pull-blog');
-				menu 		= $('.b-menu ul');
-				menuHeight	= menu.height();
+			var pullb 		= $('#pull-blog');
+				menub 		= $('.b-menu ul');
+				menuHeight	= menub.height();
 
-			$(pull).on('click', function(e) {
+			$(pullb).on('click', function(e) {
 				e.preventDefault();
-				menu.slideToggle();
+				menub.slideToggle();
 			});
 
 			$(window).resize(function(){
         		var w = $(window).width();
-        		if(w > 320 && menu.is(':hidden')) {
-        			menu.removeAttr('style');
+        		if(w > 320 && menub.is(':hidden')) {
+        			menub.removeAttr('style');
         		}
     		});
 		});
