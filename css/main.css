@@ -410,6 +410,9 @@ section#m-a-n {
   *display: inline;
   *zoom: 1;
 }
+.logo-club img {
+  width: 100%;
+}
 span.result {
   display: inline-block;
   *display: inline;
@@ -1005,6 +1008,12 @@ article.blog-item {
 }
 .post-nav li:first-child {
   border-right: 1px solid #0f2c46;
+}
+.post-img {
+  width: 100%;
+}
+.post-img img {
+  width: 100%;
 }
 .post-title {
   padding: 60px 40px;
