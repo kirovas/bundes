@@ -397,6 +397,7 @@ section#m-a-n {
 }
 .m-result {
   text-align: center;
+  padding: 0px 60px;
 }
 .m-result div {
   display: inline-block;
@@ -406,9 +407,7 @@ section#m-a-n {
 .logo-club {
   text-align: center;
   margin-top: -30px;
-  display: inline-block;
-  *display: inline;
-  *zoom: 1;
+  position: relative;
 }
 .logo-club img {
   width: 100%;
@@ -420,7 +419,7 @@ span.result {
   font-size: 63px;
   color: #fff;
   vertical-align: bottom;
-  margin: 0px 30px;
+  margin: 0px 0px;
 }
 .club-name {
   font-size: 32px;
