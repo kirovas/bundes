@@ -119,6 +119,19 @@ a:visited {
   *zoom: 1;
 }
 /* buttons */
+.btn-dflt {
+  padding-left: 20px;
+  padding-right: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  color: #fff;
+  font-size: 12px;
+  font-weight: 700;
+}
 .btn,
 button.btn {
   display: inline-block;
@@ -128,7 +141,12 @@ button.btn {
   font-size: 12px;
   font-weight: 700;
   text-transform: uppercase;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
   border-radius: 20px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
   padding: 15px 17px;
   height: auto;
 }
@@ -288,6 +306,15 @@ ol.flex-control-nav.flex-control-paging {
 }
 /* for responsive only */
 #pull {
+  display: none;
+  color: #ffffff;
+  text-transform: uppercase;
+  font-size: 14px;
+  text-align: center;
+  text-decoration: none;
+  line-height: 50px;
+}
+#pull-blog {
   display: none;
   color: #ffffff;
   text-transform: uppercase;
@@ -1160,7 +1187,8 @@ article.blog-item {
   top: 40%;
 }
 /* ADD COMMENT FORM */
-.addc input[type=text] {
+.addc input[type=text],
+.contact-form input[type=text] {
   height: 50px;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -1172,11 +1200,13 @@ article.blog-item {
   border-color: #93a2ae;
   padding-left: 30px;
 }
-.addc input[type=text]:focus {
+.addc input[type=text]:focus,
+.contact-form input[type=text]:focus {
   background: #717e88;
   box-shadow: inset 3px 3px 0px 3px #6b7881;
 }
-.addc textarea {
+.addc textarea,
+.contact-form textarea {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
@@ -1189,11 +1219,13 @@ article.blog-item {
   height: auto;
   margin: 0px 0px 30px 0px;
 }
-.addc textarea:focus {
+.addc textarea:focus,
+.contact-form textarea:focus {
   background: #717e88;
   box-shadow: inset 3px 3px 0px 3px #6b7881;
 }
-.addc button {
+.addc button,
+.contact-form button {
   margin-left: 40px;
 }
 /*HOME -> VIDEO */
@@ -1233,6 +1265,58 @@ article.blog-item {
 .video-item:hover p {
   color: #fff;
 }
+/* CONTACTS PAGE  */
+#map {
+  position: relative;
+  top: -160px;
+  z-index: -1;
+  margin-bottom: -160px;
+}
+#map img {
+  width: 100%;
+}
+.contact-form {
+  background: #fff;
+  box-shadow: 0px 3px 20px rgba(0, 0, 0, 0.4), 0px 0px 0px rgba(0, 0, 0, 0.4);
+}
+.contact-form h3 {
+  background: #8d9daa;
+  text-transform: initial;
+  padding: 40px;
+  margin: 0px;
+}
+.cinfo {
+  background: #fff;
+  padding: 50px 0px;
+  box-shadow: 0px 3px 20px rgba(0, 0, 0, 0.4), 0px 0px 0px rgba(0, 0, 0, 0.4);
+}
+.cinfo p {
+  padding: 0px 50px;
+  color: #767676;
+}
+.cinfo .detinfo {
+  color: #0f314d;
+  font-size: 16px;
+  line-height: 26px;
+  margin: 0px;
+}
+.cinfo .detinfo span {
+  color: #8d9daa;
+  font-size: 12px;
+  margin-right: 20px;
+}
+.contact-form textarea {
+  margin-bottom: 0px;
+}
+.di-wrap {
+  border-left: 2px solid #da0040;
+  margin-top: 50px;
+  margin-bottom: 10px;
+}
+.bottom-form {
+  padding: 20px 0px;
+}
+/*/////////////////////////////////////////////////////////////////////////*/
 /* NUMBERED LIST STYLE */
 ol.numbered {
   margin-left: 50px;
