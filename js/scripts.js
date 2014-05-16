@@ -27,7 +27,7 @@ $(window).load(function() {
 	
   });
   $(function() {
-    $( "#v-tabs" ).tabs();
+    $( "#v-tabs, #tab" ).tabs();
   });
   $(document).ready(function(){
   $('.slider1').bxSlider({
