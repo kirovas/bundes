@@ -2118,6 +2118,16 @@ footer ul li a:hover {
     width: 100%;
     text-indent: 25px;
   }
+  .b-menu ul {
+    display: none;
+  }
+  .b-menu ul li {
+    width: 46%;
+    text-align: center;
+  }
+  #pull-blog {
+    display: block;
+  }
   .top {
     height: auto;
   }
@@ -2173,6 +2183,16 @@ footer ul li a:hover {
     text-align: center;
     width: 100%;
     text-indent: 25px;
+  }
+  .b-menu ul {
+    display: none;
+  }
+  .b-menu ul li {
+    width: 46%;
+    text-align: center;
+  }
+  #pull-blog {
+    display: block;
   }
   .top {
     height: auto;
@@ -2230,6 +2250,16 @@ footer ul li a:hover {
     width: 100%;
     text-indent: 25px;
   }
+  .b-menu ul {
+    display: none;
+  }
+  .b-menu ul li {
+    width: 46%;
+    text-align: center;
+  }
+  #pull-blog {
+    display: block;
+  }
   .top {
     height: auto;
   }
@@ -2279,6 +2309,16 @@ footer ul li a:hover {
     rightright: 15px;
     top: 10px;
   }
+  .b-menu ul {
+    display: none;
+  }
+  .b-menu ul li {
+    width: 100%;
+    text-align: center;
+  }
+  #pull-blog {
+    display: block;
+  }
   .top {
     height: auto;
   }
@@ -2318,6 +2358,16 @@ footer ul li a:hover {
     display: block;
     float: none;
     width: 100%;
+  }
+  .b-menu ul {
+    display: none;
+  }
+  .b-menu ul li {
+    width: 100%;
+    text-align: center;
+  }
+  #pull-blog {
+    display: block;
   }
   .top {
     height: auto;
