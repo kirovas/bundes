@@ -383,15 +383,7 @@ article.blog-item{overflow:hidden;}
 			         p.blq{position:absolute;background:#4c6d8e;font-weight:700;padding:0px 10px;margin:0px;line-height:45px;bottom:-27px;right:0px;}
 					 p.blq:before{content:"";position:absolute;left:-10px;top:17px;width: 0;height: 0;border-style: solid;border-width: 0 10px 10px 0;border-color: transparent #4c6d8e transparent transparent;}
 					 }
-			blockquote:before {
-			content:"";
-			display: block;
-			width:60px;
-			height:40px;
-    	background: url(images/quote.png)no-repeat center center;
-    	position:absolute;
-		left:-12px;
-}
+			blockquote:before {content:"";display: block;width:60px;height:40px;background: url(images/quote.png)no-repeat center center;position:absolute;left:-12px;}
 			}
 .post-content {
 			h3{margin:35px;color:#0f314d;text-transform:initial;font-weight:700;}
@@ -426,6 +418,21 @@ article.blog-item{overflow:hidden;}
 .addc textarea{.box-sizing;color:#b2bbc2;background:#7f8d99;border-style: solid;border-width:1px 0px 0px 0px; border-color:#798691;padding-left:30px;height:auto;margin:0px 0px 30px 0px;}
 .addc textarea:focus{background:#717e88;box-shadow:inset 3px 3px 0px 3px #6b7881;}
 .addc button{margin-left:40px;}
+
+/*HOME -> VIDEO */
+
+.video-item{background:#143655;overflow:hidden;}
+.video-item:hover{background:@red;}
+.video-hold{background:#000;min-height:320px;
+			iframe {width: 100%!important;vertical-align:middle;}
+			}
+.video-title{padding:30px;.box-sizing;border-right:1px solid #1a3c5b;
+				h3{color:#fff;text-transform:initial;margin-bottom:10px;}
+				a{color:#fff;}
+				p{color:#4c6d8e;}
+			}
+.video-item:hover p{color:#fff;}
+
 /* NUMBERED LIST STYLE */
 ol.numbered{margin-left:50px;counter-reset:li;margin-bottom:40px;
 				li{position:relative;line-height:20px;}
@@ -442,7 +449,8 @@ ul.markered li:before{content:"\f192";font-family: FontAwesome; display: inline-
 .table-striped-light{}
 .post-content iframe{width:100%!important;}
 /* PAGINATION */
-.pagination{background:#143655; text-align:center;overflow:hidden;
+
+.pagination{background:#143655; text-align:center;overflow:hidden;float: left;width: 100%;
 			ul > li{.inline-block;
 					a{display:block;line-height:50px;border-bottom:2px solid transparent;color:#4c6d8e;font-weight:700;padding:0px 15px;.box-sizing;}
 					a:hover{color:#fff;border-bottom:2px solid @red;}
