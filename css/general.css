@@ -1,3 +1,67 @@
+/* Gradients
+/* ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## */
+/* Bordered
+/* ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## */
+/* Rounded
+/* ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## */
+/* Opacity
+/* ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## */
+/* Transition
+/* ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## */
+/* Shawows
+/* ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## */
+/* Columns
+/* ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## */
+/* Fonts
+/* ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## */
+/* Spacing
+/* ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## */
+/* Other
+/* ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## */
+/* Grid System 12 Columns
+/* ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## */
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0px 10px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.container:before,
+.container:after {
+  display: table;
+  content: " ";
+}
+.container:after {
+  clear: both;
+}
+.container:before,
+.container:after {
+  display: table;
+  content: " ";
+}
+.container:after {
+  clear: both;
+}
+.col-12 {
+  width: 100%;
+}
+.col-1,
+.col-2,
+.col-3,
+.col-4,
+.col-5,
+.col-6,
+.col-7,
+.col-8,
+.col-9,
+.col-10,
+.col-11 {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
 /* Reset Styles
 /* ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## */
 article,
@@ -488,104 +552,6 @@ html[xmlns] .slides {
 * html .slides {
   height: 1%;
 }
-/* Gradients
-/* ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## */
-/* Bordered
-/* ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## */
-/* Rounded
-/* ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## */
-/* Opacity
-/* ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## */
-/* Transition
-/* ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## */
-/* Shawows
-/* ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## */
-/* Columns
-/* ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## */
-/* Fonts
-/* ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## */
-/* Spacing
-/* ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## */
-/* Other
-/* ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## */
-/* Grid System 12 Columns
-/* ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## */
-.container {
-  margin-left: auto;
-  margin-right: auto;
-  padding: 0px 10px;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-}
-.container:before,
-.container:after {
-  display: table;
-  content: " ";
-}
-.container:after {
-  clear: both;
-}
-.container:before,
-.container:after {
-  display: table;
-  content: " ";
-}
-.container:after {
-  clear: both;
-}
-.col-1,
-.col-2,
-.col-3,
-.col-4,
-.col-5,
-.col-6,
-.col-7,
-.col-8,
-.col-9,
-.col-10,
-.col-11 {
-  float: left;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-}
-.col-1 {
-  width: 8.333333333333332%;
-}
-.col-2 {
-  width: 16.666666666666664%;
-}
-.col-3 {
-  width: 25%;
-}
-.col-4 {
-  width: 33.33333333333333%;
-}
-.col-5 {
-  width: 41.66666666666667%;
-}
-.col-6 {
-  width: 50%;
-}
-.col-7 {
-  width: 58.333333333333336%;
-}
-.col-8 {
-  width: 66.66666666666666%;
-}
-.col-9 {
-  width: 75%;
-}
-.col-10 {
-  width: 83.33333333333334%;
-}
-.col-11 {
-  width: 91.66666666666666%;
-}
-.col-12 {
-  width: 100%;
-}
 /*  colors  */
 body {
   background: #122737;
@@ -1063,11 +1029,9 @@ span.result {
   overflow: hidden;
 }
 #v-tabs ul {
-  float: left;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
-  width: 33.33333333333333%;
 }
 #v-tabs ul > li {
   display: inline-block;
@@ -1121,11 +1085,9 @@ span.result {
   color: #fff!important;
 }
 .tab-content {
-  float: left;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
-  width: 66.66666666666666%;
   background: #000;
   padding: 34px 0px;
 }
@@ -1974,7 +1936,6 @@ footer ul li a:hover {
   }
   #top-menu a#pull:after {
     content: "";
-    background: url('nav-icon.png') no-repeat;
     width: 30px;
     height: 30px;
     display: inline-block;
@@ -1992,9 +1953,15 @@ footer ul li a:hover {
     width: 100%;
     text-indent: 25px;
   }
+  .top {
+    height: auto;
+  }
   .login {
     position: absolute;
     right: 0px;
+  }
+  .slider {
+    top: 207px;
   }
 }
 /* Landskape Phone to Small Desktop & Portrait Tablet
@@ -2018,7 +1985,6 @@ footer ul li a:hover {
   }
   #top-menu a#pull:after {
     content: "";
-    background: url('nav-icon.png') no-repeat;
     width: 30px;
     height: 30px;
     display: inline-block;
@@ -2027,7 +1993,7 @@ footer ul li a:hover {
     top: 10px;
   }
   #top-menu li {
-    width: 50%;
+    width: 100%;
     float: left;
     position: relative;
   }
@@ -2036,9 +2002,18 @@ footer ul li a:hover {
     width: 100%;
     text-indent: 25px;
   }
+  .top {
+    height: auto;
+  }
   .login {
     position: absolute;
-    right: 0px;
+    right: 10px;
+  }
+  .logo {
+    text-align: center;
+  }
+  .slider {
+    top: 207px;
   }
 }
 @media (max-width: 640px) {
@@ -2057,7 +2032,6 @@ footer ul li a:hover {
   }
   #top-menu a#pull:after {
     content: "";
-    background: url('nav-icon.png') no-repeat;
     width: 30px;
     height: 30px;
     display: inline-block;
@@ -2066,7 +2040,7 @@ footer ul li a:hover {
     top: 10px;
   }
   #top-menu li {
-    width: 50%;
+    width: 100%;
     float: left;
     position: relative;
   }
@@ -2075,9 +2049,18 @@ footer ul li a:hover {
     width: 100%;
     text-indent: 25px;
   }
+  .top {
+    height: auto;
+  }
   .login {
     position: absolute;
-    right: 0px;
+    right: 10px;
+  }
+  .logo {
+    text-align: center;
+  }
+  .slider {
+    top: 207px;
   }
 }
 /* Up to Landskape Phone
@@ -2106,9 +2089,23 @@ footer ul li a:hover {
     rightright: 15px;
     top: 10px;
   }
+  .top {
+    height: auto;
+  }
   .login {
     position: absolute;
-    right: 0px;
+    right: 10px;
+  }
+  .logo {
+    text-align: center;
+  }
+  .slider {
+    display: none;
+  }
+  .bx-controls-direction {
+    position: relative;
+    left: 0px;
+    bottom: 0px;
   }
 }
 /* Up to Portrait Phone
@@ -2119,6 +2116,24 @@ footer ul li a:hover {
     float: none;
     width: 100%;
   }
+  .top {
+    height: auto;
+  }
+  .logo {
+    text-align: center;
+  }
+  .login {
+    position: absolute;
+    right: 10px;
+  }
+  .slider {
+    display: none;
+  }
+  .bx-controls-direction {
+    position: relative;
+    left: 0px;
+    bottom: 0px;
+  }
 }
 /* Defaul Desktop
 /* ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## */
@@ -2126,11 +2141,103 @@ footer ul li a:hover {
   .container {
     width: 950px;
   }
+  .col-1,
+  .col-2,
+  .col-3,
+  .col-4,
+  .col-5,
+  .col-6,
+  .col-7,
+  .col-8,
+  .col-9,
+  .col-10,
+  .col-11 {
+    float: left;
+  }
+  .col-1 {
+    width: 8.333333333333332%;
+  }
+  .col-2 {
+    width: 16.666666666666664%;
+  }
+  .col-3 {
+    width: 25%;
+  }
+  .col-4 {
+    width: 33.33333333333333%;
+  }
+  .col-5 {
+    width: 41.66666666666667%;
+  }
+  .col-6 {
+    width: 50%;
+  }
+  .col-7 {
+    width: 58.333333333333336%;
+  }
+  .col-8 {
+    width: 66.66666666666666%;
+  }
+  .col-9 {
+    width: 75%;
+  }
+  .col-10 {
+    width: 83.33333333333334%;
+  }
+  .col-11 {
+    width: 91.66666666666666%;
+  }
 }
 /* Large Desktop
 /* ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## */
 @media (min-width: 1200px) {
   .container {
     width: 960px;
+  }
+  .col-1,
+  .col-2,
+  .col-3,
+  .col-4,
+  .col-5,
+  .col-6,
+  .col-7,
+  .col-8,
+  .col-9,
+  .col-10,
+  .col-11 {
+    float: left;
+  }
+  .col-1 {
+    width: 8.333333333333332%;
+  }
+  .col-2 {
+    width: 16.666666666666664%;
+  }
+  .col-3 {
+    width: 25%;
+  }
+  .col-4 {
+    width: 33.33333333333333%;
+  }
+  .col-5 {
+    width: 41.66666666666667%;
+  }
+  .col-6 {
+    width: 50%;
+  }
+  .col-7 {
+    width: 58.333333333333336%;
+  }
+  .col-8 {
+    width: 66.66666666666666%;
+  }
+  .col-9 {
+    width: 75%;
+  }
+  .col-10 {
+    width: 83.33333333333334%;
+  }
+  .col-11 {
+    width: 91.66666666666666%;
   }
 }

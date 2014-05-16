@@ -44,6 +44,9 @@
 .container:after {
   clear: both;
 }
+.col-12 {
+  width: 100%;
+}
 .col-1,
 .col-2,
 .col-3,
@@ -55,46 +58,9 @@
 .col-9,
 .col-10,
 .col-11 {
-  float: left;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
-}
-.col-1 {
-  width: 8.333333333333332%;
-}
-.col-2 {
-  width: 16.666666666666664%;
-}
-.col-3 {
-  width: 25%;
-}
-.col-4 {
-  width: 33.33333333333333%;
-}
-.col-5 {
-  width: 41.66666666666667%;
-}
-.col-6 {
-  width: 50%;
-}
-.col-7 {
-  width: 58.333333333333336%;
-}
-.col-8 {
-  width: 66.66666666666666%;
-}
-.col-9 {
-  width: 75%;
-}
-.col-10 {
-  width: 83.33333333333334%;
-}
-.col-11 {
-  width: 91.66666666666666%;
-}
-.col-12 {
-  width: 100%;
 }
 /*  colors  */
 body {
@@ -573,11 +539,9 @@ span.result {
   overflow: hidden;
 }
 #v-tabs ul {
-  float: left;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
-  width: 33.33333333333333%;
 }
 #v-tabs ul > li {
   display: inline-block;
@@ -631,11 +595,9 @@ span.result {
   color: #fff!important;
 }
 .tab-content {
-  float: left;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
-  width: 66.66666666666666%;
   background: #000;
   padding: 34px 0px;
 }
