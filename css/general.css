@@ -1970,6 +1970,9 @@ footer ul li a:hover {
     position: absolute;
     right: 0px;
   }
+  .logo {
+    text-align: center;
+  }
   .slider {
     top: 207px;
   }
