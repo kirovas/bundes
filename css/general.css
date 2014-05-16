@@ -830,6 +830,9 @@ ol.flex-control-nav.flex-control-paging {
   float: left;
   width: 100%;
 }
+.dropdown-menu li:hover {
+  background: #c9003b;
+}
 /* for responsive only */
 #pull {
   display: none;
