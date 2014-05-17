@@ -331,7 +331,7 @@
   }
 }
 /* iPads (portrait) ----------- */
-@media only screen and (min-width: 481px) and (max-width: 768px) {
+@media only screen and (min-width: 600px) and (max-width: 768px) {
   .col-1,
   .col-2,
   .col-3,
@@ -377,6 +377,9 @@
   }
   .col-11 {
     width: 91.66666666666666%;
+  }
+  .tpi {
+    padding: 30px;
   }
 }
 /* iPads (landscape) ----------- */
