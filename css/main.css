@@ -1394,6 +1394,9 @@ article.blog-item {
   box-sizing: border-box;
 }
 /* HOME -> TEAM  */
+.tpp img {
+  width: 100%;
+}
 .tpi {
   background: #143655;
   padding: 60px;
