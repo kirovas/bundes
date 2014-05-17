@@ -496,6 +496,7 @@ span.result {
 }
 .club-name {
   font-size: 32px;
+  margin-bottom: 25px;
 }
 .club-name span {
   display: inline-block;
@@ -746,16 +747,16 @@ span.result {
   height: 100%;
 }
 .bx-controls-direction .bx-prev {
-  background: url(images/arrow.jpg) no-repeat 3px -92px;
+  background: url(images/arrow.jpg) no-repeat 5px -92px;
 }
 .bx-controls-direction .bx-prev:hover {
-  background-position: 3px 4px;
+  background-position: 5px 4px;
 }
 .bx-controls-direction .bx-next {
-  background: url(images/arrow.jpg) no-repeat -72px -92px;
+  background: url(images/arrow.jpg) no-repeat -74px -92px;
 }
 .bx-controls-direction .bx-next:hover {
-  background-position: -72px 4px;
+  background-position: -74px 4px;
 }
 /*#############  twiter, blog, table ###############*/
 .twiter {
@@ -1391,6 +1392,50 @@ article.blog-item {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
+}
+/* HOME -> TEAM  */
+.tpi {
+  background: #143655;
+  padding: 60px;
+}
+.tpi h2 {
+  text-transform: initial;
+  margin-bottom: 15px;
+}
+.tpi span {
+  color: #617e94;
+  font-size: 11px;
+}
+.tpi p {
+  color: #617e94;
+  font-size: 14px;
+  padding: 17px 0px 0px;
+}
+.team-pl img {
+  width: 100%;
+}
+.slider2 {
+  position: relative;
+}
+.ftitle {
+  padding: 35px;
+  background: #143655;
+}
+.ftitle h2 {
+  text-transform: initial;
+  font-weight: 700;
+  margin: 0px;
+}
+.ftitle h2 span {
+  font-weight: 400;
+}
+.big_crsl {
+  position: relative;
+}
+.big_crsl .bx-controls-direction {
+  top: 0px;
+  right: 0px;
+  left: auto;
 }
 /* CONTACTS PAGE  */
 #map {

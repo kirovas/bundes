@@ -56,6 +56,15 @@ $(window).load(function() {
   });
 });
 $(document).ready(function(){
+  $('.slider2').bxSlider({
+    //slideWidth: 156,
+    minSlides: 1,
+    maxSlides: 4,
+	pager: false,
+    slideMargin: 0
+  });
+});
+$(document).ready(function(){
 $(".dropdown").mouseover(function () {
     
 $(this).find(".dropdown-menu").slideDown('slow');
