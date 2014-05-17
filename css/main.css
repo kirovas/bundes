@@ -260,13 +260,13 @@ button.btn {
   cursor: default;
 }
 .flex-direction-nav a:before {
-  font-family: "flexslider-icon";
+  font-family: "FontAwesome";
   font-size: 40px;
   display: inline-block;
   content: '\f001';
 }
 .flex-direction-nav a.flex-next:before {
-  content: '\f002';
+  content: '\f105';
 }
 ol.flex-control-nav.flex-control-paging {
   display: none;
@@ -471,6 +471,7 @@ section#m-a-n {
 .m-result {
   text-align: center;
   padding: 0px 60px;
+  float: left;
 }
 .m-result div {
   display: inline-block;
