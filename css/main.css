@@ -474,9 +474,7 @@ section#m-a-n {
   float: left;
 }
 .m-result div {
-  display: inline-block;
-  *display: inline;
-  *zoom: 1;
+  float: left;
 }
 .logo-club {
   text-align: center;
@@ -495,6 +493,10 @@ span.result {
   vertical-align: bottom;
   margin: 0px 0px;
 }
+span.result dt {
+  color: #AA0435;
+  display: inline;
+}
 .club-name {
   font-size: 32px;
   margin-bottom: 25px;
@@ -507,10 +509,9 @@ span.result {
 }
 .club-name .match-name {
   font-size: 12px;
-  width: 130px;
   color: #ff9b9b;
   vertical-align: middle;
-  margin: 0px 30px;
+  padding: 30px 0px;
 }
 .a-games {
   background: #fff;
@@ -540,12 +541,12 @@ span.result {
 /*right col news*/
 .r-box-n {
   background: #fff;
-  padding: 0px 0px 30px 40px;
+  padding: 0px 0px 48px 40px;
   min-height: 440px;
   overflow: hidden;
 }
 .r-box-n article {
-  padding: 30px 0 17px 40px;
+  padding: 33px 0 17px 40px;
   border-left: 1px solid #e8ebee;
   position: relative;
 }
