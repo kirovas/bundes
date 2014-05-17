@@ -263,7 +263,7 @@ button.btn {
   font-family: "FontAwesome";
   font-size: 40px;
   display: inline-block;
-  content: '\f001';
+  content: '\f104';
 }
 .flex-direction-nav a.flex-next:before {
   content: '\f105';
@@ -471,10 +471,6 @@ section#m-a-n {
 .m-result {
   text-align: center;
   padding: 0px 60px;
-  float: left;
-}
-.m-result div {
-  float: left;
 }
 .logo-club {
   text-align: center;
