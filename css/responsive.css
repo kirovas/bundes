@@ -53,7 +53,7 @@
   }
   .login {
     position: absolute;
-    right: 0px;
+    right: 10px;
   }
   .logo {
     text-align: center;
@@ -331,7 +331,7 @@
   }
 }
 /* iPads (portrait) ----------- */
-@media only screen and (min-width: 600px) and (max-width: 768px) {
+@media only screen and (min-width: 640px) and (max-width: 768px) {
   .col-1,
   .col-2,
   .col-3,
