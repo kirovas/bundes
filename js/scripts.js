@@ -81,7 +81,7 @@ $(document).ready(function(){
 	show_title: true, /* true/false */
 	});
   });
- $(document).ready(function(){
+ $(window).load(function(){
   var $container = $('.gallery-item');
 // init
 $container.isotope({
