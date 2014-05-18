@@ -81,3 +81,12 @@ $(document).ready(function(){
 	show_title: true, /* true/false */
 	});
   });
+ $(document).ready(function(){
+  var $container = $('.gallery-item');
+// init
+$container.isotope({
+  // options
+  itemSelector: '.gal',
+  layoutMode: 'masonry'
+});
+ });

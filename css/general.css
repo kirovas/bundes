@@ -1198,7 +1198,7 @@ span.result dt {
   -moz-box-sizing: border-box;
   box-sizing: border-box;
   background: #000;
-  padding: 0px;
+  padding: 7px 0px;
   overflow: hidden;
 }
 #v-tabs .tab-content img {
@@ -1286,7 +1286,7 @@ span.result dt {
 /*#############  twiter, blog, table ###############*/
 .twiter {
   background: #143655;
-  border-bottom: 2px solid #5ad2ff;
+  border-bottom: 3px solid #5ad2ff;
 }
 .twiter h3 {
   color: #fff;
@@ -1303,7 +1303,7 @@ ul.t-post li {
   display: inline-block;
   *display: inline;
   *zoom: 1;
-  padding: 31px 20px;
+  padding: 29px 20px 30px;
   border-top: 1px solid #1f4160;
   color: #afcae6;
 }
@@ -1388,6 +1388,7 @@ ul.t-post li a span {
 }
 .t-h {
   color: #4c6d8e;
+  line-height: 36px!important;
 }
 .t-c {
   text-align: center;
@@ -1970,6 +1971,17 @@ article.blog-item {
   left: auto;
 }
 /* HOME -> GALLERY */
+.gallery-item .height2 {
+  height: 470px;
+}
+.gallery-item .width2 {
+  width: 470px;
+}
+.gallery-item:after {
+  content: "";
+  display: table;
+  clear: both;
+}
 .gal {
   float: left;
 }

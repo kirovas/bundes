@@ -261,7 +261,7 @@ span.result{.inline-block;font-size:63px;color:#fff;vertical-align:bottom;margin
 #v-tabs ul > li:hover a, .ui-tabs-active a{color:#fff!important;}
 #v-tabs ul > li:hover span, .ui-tabs-active span{color:#ff9b9b!important;}
 #v-tabs ul > li:hover .fa, .ui-tabs-active .fa{color:#fff!important;}
-#v-tabs .tab-content {.col-8; background:#000; padding: 0px;overflow:hidden;
+#v-tabs .tab-content {.col-8; background:#000; padding: 7px 0px;overflow:hidden;
 				img{width:100%;}
 				iframe{width:100%!important;}
 			}
@@ -290,11 +290,11 @@ span.result{.inline-block;font-size:63px;color:#fff;vertical-align:bottom;margin
 .bx-controls-direction .bx-next:hover{background-position:-74px 4px;}
 
 /*#############  twiter, blog, table ###############*/
-.twiter{background:#143655;border-bottom:2px solid #5ad2ff;
+.twiter{background:#143655;border-bottom:3px solid #5ad2ff;
 		h3{color:#fff;text-transform:uppercase;line-height:60px;margin:0px;padding-left:30px;background:url(images/twitter_light.png)no-repeat left center;}
 		}
 .tw-title{padding-left:20px;}
-ul.t-post li{.inline-block;padding:31px 20px;border-top:1px solid #1f4160;color:#afcae6;
+ul.t-post li{.inline-block;padding: 29px 20px 30px;border-top:1px solid #1f4160;color:#afcae6;
 			a{display:block;color:#54bee6;margin:10px 0px;
 				span{color:#466787;}
 			}
@@ -317,7 +317,7 @@ ul.t-post li{.inline-block;padding:31px 20px;border-top:1px solid #1f4160;color:
 				tr{line-height:32px;border-right:3px solid transparent;}
 				}
 .table-striped tr:hover{border-right:3px solid @red;}
-.t-h{color:#4c6d8e;}
+.t-h{color:#4c6d8e;line-height: 36px!important;}
 .t-c{text-align:center;color:#4c6d8e;padding:0px 20px;}
 .table-striped tr:nth-child(2n){background:#0d2840;}
 
@@ -519,6 +519,11 @@ article.blog-item{overflow:hidden;}
 		}
 
 /* HOME -> GALLERY */
+.gallery-item{
+			.height2{height:470px;}
+			.width2{width:470px;}
+			}
+.gallery-item:after{content:"";display:table;clear:both;}
 .gal{ float:left;
 	a{position:relative;display:block;}
 	img{width:100%;.transition(all 0.5s ease-in-out);}
