@@ -127,7 +127,7 @@ button.btn {
   -moz-background-clip: padding;
   -webkit-background-clip: padding-box;
   background-clip: padding-box;
-  padding: 15px 17px;
+  padding: 12px 17px;
   height: auto;
 }
 .btn-bordered {
