@@ -1950,6 +1950,7 @@ article.blog-item {
 }
 .message p {
   padding: 15px 40px;
+  font-size: 12px;
 }
 .avatar {
   position: absolute;
