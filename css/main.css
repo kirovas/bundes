@@ -197,7 +197,8 @@ button.btn {
   -moz-transform: skew(-20deg);
   -o-transform: skew(-20deg);
 }
-#tab ul > li:hover {
+#tab ul > li:hover,
+#tab ul > li.active {
   background: #476e93;
 }
 #tab ul > li:hover a,
