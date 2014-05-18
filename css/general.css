@@ -558,7 +558,6 @@ body {
   color: #ffffff;
   min-height: 1000px;
   font-family: 'Ubuntu', sans-serif;
-  font-size: 13px;
 }
 a:visited {
   color: inherit;
@@ -711,30 +710,27 @@ button.btn {
 /* FLEXSLIDER */
 .flex-direction-nav a {
   display: block;
-  width: 50px;
-  height: 50px;
+  width: 40px;
+  height: 40px;
   margin: -20px 0 0;
   position: absolute;
-  top: 40%;
+  top: 50%;
   z-index: 10;
   overflow: hidden;
   opacity: 0;
   cursor: pointer;
   color: rgba(0, 0, 0, 0.8);
+  text-shadow: 1px 1px 0 rgba(255, 255, 255, 0.3);
   -webkit-transition: all .3s ease;
   -moz-transition: all .3s ease;
   transition: all .3s ease;
-  text-indent: -999px;
 }
 .flex-direction-nav .flex-prev {
   left: -50px;
-  background: url(images/flex-prev.png) no-repeat;
 }
 .flex-direction-nav .flex-next {
   right: -50px;
   text-align: right;
-  background: url(images/flex-next.png) no-repeat;
-  text-indent: 999px;
 }
 .flexslider:hover .flex-prev {
   opacity: 0.7;
@@ -764,21 +760,6 @@ button.btn {
 }
 ol.flex-control-nav.flex-control-paging {
   display: none;
-}
-.caption {
-  position: absolute;
-  top: 12%;
-  left: 0px;
-  width: 100%;
-}
-.caption h1 {
-  font-size: 35px;
-  text-transform: initial;
-  font-weight: 700;
-}
-.caption h1 span {
-  display: block;
-  font-weight: 400;
 }
 /* ############################################################################## */
 /* Header
@@ -818,17 +799,13 @@ ol.flex-control-nav.flex-control-paging {
   text-transform: uppercase;
   font-size: 14px;
   display: inline-block;
-  padding: 0px 20px;
+  padding: 0px 15px;
   text-align: center;
   text-decoration: none;
   line-height: 50px;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
-}
-#top-menu ul li:hover,
-#top-menu ul li.active {
-  background: #c40039;
 }
 .dropdown {
   position: relative;
@@ -898,8 +875,7 @@ ol.flex-control-nav.flex-control-paging {
 }
 .login a {
   color: #7491ae;
-  background-image: -moz-linear-gradient(top, #214467, #0e304c);
-  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #214467), color-stop(1, #0e304c));
+  background: #10324f;
   font-weight: bold;
   font-size: 12px;
   line-height: 50px;
@@ -908,7 +884,7 @@ ol.flex-control-nav.flex-control-paging {
   border-right: 1px solid #2d4d69;
   text-transform: uppercase;
   border-bottom: 1px solid #193a54;
-  font-family: 'Ubuntu';
+  font-family: 'Oswald';
 }
 .login a span {
   display: block;
@@ -922,9 +898,6 @@ ol.flex-control-nav.flex-control-paging {
   margin-right: 5px;
   color: #062641;
   font-size: 15px;
-}
-.login a:hover {
-  text-decoration: underline;
 }
 .login:before {
   content: "";
@@ -988,7 +961,6 @@ section#m-a-n {
 .m-result {
   text-align: center;
   padding: 0px 60px;
-  float: left;
 }
 .logo-club {
   text-align: center;
@@ -1014,7 +986,6 @@ span.result dt {
 .club-name {
   font-size: 32px;
   margin-bottom: 25px;
-  float: left;
 }
 .club-name span {
   display: inline-block;
@@ -1056,12 +1027,12 @@ span.result dt {
 /*right col news*/
 .r-box-n {
   background: #fff;
-  padding: 1px 0px 30px 40px;
+  padding: 0px 0px 48px 40px;
   min-height: 440px;
   overflow: hidden;
 }
 .r-box-n article {
-  padding: 30px 0 5px 40px;
+  padding: 33px 0 17px 40px;
   border-left: 1px solid #e8ebee;
   position: relative;
 }
@@ -1118,7 +1089,6 @@ span.result dt {
   font-size: 24px;
   font-weight: 400;
   margin-bottom: 35px;
-  text-transform: initial;
 }
 #teaser h2 span {
   font-weight: 700;
@@ -1157,8 +1127,6 @@ span.result dt {
   display: inline-block;
   *display: inline;
   *zoom: 1;
-  color: #0f314d;
-  width: 80%;
 }
 #v-tabs ul > li > .fa {
   margin-right: 20px;
@@ -1182,7 +1150,7 @@ span.result dt {
 }
 #v-tabs ul > li:hover a,
 .ui-tabs-active a {
-  color: #fff!important;
+  color: #fff;
 }
 #v-tabs ul > li:hover span,
 .ui-tabs-active span {
@@ -1197,14 +1165,10 @@ span.result dt {
   -moz-box-sizing: border-box;
   box-sizing: border-box;
   background: #000;
-  padding: 0px;
-  overflow: hidden;
+  padding: 34px 0px;
 }
 #v-tabs .tab-content img {
   width: 100%;
-}
-#v-tabs .tab-content iframe {
-  width: 100%!important;
 }
 /* our players */
 .players {
@@ -1304,7 +1268,6 @@ ul.t-post li {
   *zoom: 1;
   padding: 31px 20px;
   border-top: 1px solid #1f4160;
-  color: #afcae6;
 }
 ul.t-post li a {
   display: block;
@@ -1438,10 +1401,10 @@ ul.t-post li a span {
   color: #da0040;
 }
 .blog-title {
-  margin-top: 40px;
+  margin-top: 45px;
   float: right;
   text-transform: initial;
-  font-size: 47px;
+  font-size: 38px;
 }
 .blog-title:first-letter {
   color: #da0040;
@@ -1486,7 +1449,7 @@ article.blog-item {
 .b-img-s img {
   width: 100%;
 }
-.b-img-s:hover a:after {
+.b-img-s:hover:after {
   content: "";
   width: 100%;
   height: 100%;
@@ -1518,7 +1481,7 @@ article.blog-item {
 .b-desc p {
   color: #617e94;
   text-align: center;
-  margin-bottom: 31px;
+  margin-bottom: 35px;
 }
 .date-i a {
   display: inline-block;
@@ -1826,7 +1789,6 @@ article.blog-item {
   color: #fff;
   text-transform: initial;
   margin-bottom: 10px;
-  font-size: 25px;
 }
 .video-title a {
   color: #fff;
@@ -1893,9 +1855,8 @@ article.blog-item {
   padding: 15% 10%;
 }
 .stad-i h2 {
-  font-size: 48px;
+  font-size: 34px;
   text-transform: initial;
-  margin-bottom: 20px;
 }
 .honors {
   overflow: hidden;
@@ -1948,14 +1909,13 @@ article.blog-item {
   position: relative;
 }
 .ftitle {
-  padding: 29px 45px;
+  padding: 35px;
   background: #143655;
 }
 .ftitle h2 {
   text-transform: initial;
   font-weight: 700;
   margin: 0px;
-  font-size: 32px;
 }
 .ftitle h2 span {
   font-weight: 400;
@@ -1968,29 +1928,19 @@ article.blog-item {
   right: 0px;
   left: auto;
 }
-/* HOME -> GALLERY */
-.gal {
-  float: left;
-}
-.gal img {
-  width: 100%;
-}
 /* CONTACTS PAGE  */
 #map {
   position: relative;
   top: -160px;
+  z-index: -1;
   margin-bottom: -160px;
 }
-#map #map_canvas {
+#map img {
   width: 100%;
-  height: 500px;
-  -webkit-filter: grayscale(100%);
 }
 .contact-form {
   background: #fff;
   box-shadow: 0px 3px 20px rgba(0, 0, 0, 0.4), 0px 0px 0px rgba(0, 0, 0, 0.4);
-  position: relative;
-  z-index: 1;
 }
 .contact-form h3 {
   background: #8d9daa;
@@ -2002,8 +1952,6 @@ article.blog-item {
   background: #fff;
   padding: 50px 0px;
   box-shadow: 0px 3px 20px rgba(0, 0, 0, 0.4), 0px 0px 0px rgba(0, 0, 0, 0.4);
-  position: relative;
-  z-index: 1;
 }
 .cinfo p {
   padding: 0px 50px;
@@ -2022,7 +1970,6 @@ article.blog-item {
 }
 .contact-form textarea {
   margin-bottom: 0px;
-  font-family: "Ubuntu";
 }
 .di-wrap {
   border-left: 2px solid #da0040;
@@ -2124,7 +2071,7 @@ footer {
   padding-bottom: 20px;
 }
 footer p {
-  font-size: 12px;
+  font-size: 11px;
   padding: 0px 20px;
 }
 footer h3 {
@@ -2139,9 +2086,6 @@ footer ul li a {
 }
 footer ul li a:hover {
   text-decoration: underline;
-}
-.social-icon {
-  padding-left: 20px;
 }
 .social-icon ul#social li {
   display: inline-block;
@@ -2371,13 +2315,6 @@ footer ul li a:hover {
   }
   .logo {
     text-align: center;
-  }
-  .m-result {
-    float: none;
-  }
-  .logo-club {
-    width: 50%;
-    margin: 0px auto;
   }
   .slider {
     top: 207px;
