@@ -737,9 +737,10 @@ span.result {
   vertical-align: bottom;
   margin: 0px 0px;
 }
-span.result dt {
+span.result b {
   color: #AA0435;
   display: inline;
+  font-style: normal!important;
 }
 .club-name {
   font-size: 32px;
