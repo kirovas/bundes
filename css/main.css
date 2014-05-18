@@ -313,7 +313,8 @@ input[type="text"] {
   font-family: 'Ubuntu', sans-serif;
   font-size: 12px;
 }
-input[type="text"]:active {
+input[type="text"]:active,
+input[type="text"]:focus {
   color: #767676;
   background: #f7f7f7;
 }
