@@ -48,7 +48,7 @@ $(window).load(function() {
   });
   $(document).ready(function(){
   $('.slider1').bxSlider({
-    slideWidth: 156,
+    slideWidth: 157,
     minSlides: 2,
     maxSlides: 4,
 	pager: false,
