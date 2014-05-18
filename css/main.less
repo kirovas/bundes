@@ -520,8 +520,12 @@ article.blog-item{overflow:hidden;}
 
 /* HOME -> GALLERY */
 .gal{ float:left;
-	img{width:100%;}
+	a{position:relative;display:block;}
+	img{width:100%;.transition(all 0.5s ease-in-out);}
 	}
+.gal:hover img{opacity:0.6;.transition(all 0.5s ease-in-out);}
+.gal:hover a:after{content:"\f002";font-family:"fontAwesome";text-align:center;color:#fff;position:absolute;position: absolute;font-size: 24px;
+width: 100%;left: 0px;top: 40%;}
 /* CONTACTS PAGE  */
 #map{position:relative;top:-160px;margin-bottom: -160px;
 	#map_canvas{width:100%;height:500px;-webkit-filter: grayscale(100%);}
