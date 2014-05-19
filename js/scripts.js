@@ -64,16 +64,7 @@ $(document).ready(function(){
     slideMargin: 0
   });
 });
-$(document).ready(function(){
-$(".dropdown").mouseover(function () {
-    
-$(this).find(".dropdown-menu").slideDown('slow');
-});
-
-$(".dropdown").mouseleave(function () {
-    $(this).find(".dropdown-menu").slideUp('slow');
-});
-});
+//// Pretty Photo
 $(document).ready(function(){
     $("a[rel^='prettyPhoto']").prettyPhoto({
 	theme: 'dark_rounded', /* light_rounded / dark_rounded / light_square / dark_square / facebook */
@@ -81,6 +72,7 @@ $(document).ready(function(){
 	show_title: true, /* true/false */
 	});
   });
+ ///// Masonry
  $(window).load(function(){
   var $container = $('.gallery-item');
 // init

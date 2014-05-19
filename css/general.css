@@ -1068,6 +1068,11 @@ ol.flex-control-nav.flex-control-paging {
   background-color: #da0040;
   -webkit-box-shadow: inset 0px 3px 20px rgba(0, 0, 0, 0.3), 0px 0px 5px rgba(0, 0, 0, 0.3);
   box-shadow: inset 0px 3px 20px rgba(0, 0, 0, 0.3), 0px 0px 5px rgba(0, 0, 0, 0.3);
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -ms-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
 }
 .dropdown-menu li {
   float: left;
@@ -1075,6 +1080,14 @@ ol.flex-control-nav.flex-control-paging {
 }
 .dropdown-menu li:hover {
   background: #c9003b;
+}
+.dropdown:hover .dropdown-menu {
+  display: block;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -ms-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
 }
 /* for responsive only */
 #pull {
@@ -1498,16 +1511,16 @@ span.result b {
   height: 100%;
 }
 .bx-controls-direction .bx-prev {
-  background: url(images/arrow.jpg) no-repeat 5px -92px;
+  background: url(images/arrow.jpg) no-repeat 1px -96px;
 }
 .bx-controls-direction .bx-prev:hover {
-  background-position: 5px 4px;
+  background-position: 1px 0px;
 }
 .bx-controls-direction .bx-next {
-  background: url(images/arrow.jpg) no-repeat -74px -92px;
+  background: url(images/arrow.jpg) no-repeat -76px -96px;
 }
 .bx-controls-direction .bx-next:hover {
-  background-position: -74px 4px;
+  background-position: -76px 0px;
 }
 /*#############  twiter, blog, table ###############*/
 .twiter {

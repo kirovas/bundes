@@ -266,6 +266,7 @@ ol.flex-control-nav.flex-control-paging{display:none;}
 	  }
 }
 .dropdown{position:relative;}
+
 .dropdown-menu{
 float:left;
 	position: absolute;
@@ -282,10 +283,11 @@ font-size: 14px;
 background-color: @red;
 -webkit-box-shadow:inset 0px 3px 20px rgba(0, 0, 0, 0.3), 0px 0px 5px rgba(0, 0, 0, 0.3);
 box-shadow:inset 0px 3px 20px rgba(0, 0, 0, 0.3), 0px 0px 5px rgba(0, 0, 0, 0.3);
-
+.transition(all 0.5s ease-in-out);
 }
 .dropdown-menu li{float:left;width: 100%;}
 .dropdown-menu li:hover{background:#c9003b;}
+.dropdown:hover .dropdown-menu{display:block;.transition(all 0.5s ease-in-out);}
 /* for responsive only */
 #pull {  
     display: none;
@@ -454,10 +456,10 @@ span.result{.inline-block;font-size:63px;color:#fff;vertical-align:bottom;margin
 .bx-controls-direction { position: absolute;left: 156px;height: 96px;width: 157px;bottom: 0px;background:#081d2e;
 						a{.inline-block;width:50%;position:relative;text-indent:-9999px;height:100%;}
 						}
-.bx-controls-direction .bx-prev{background:url(images/arrow.jpg) no-repeat 5px -92px;}
-.bx-controls-direction .bx-prev:hover{background-position:5px 4px}
-.bx-controls-direction .bx-next{background:url(images/arrow.jpg) no-repeat -74px -92px;}
-.bx-controls-direction .bx-next:hover{background-position:-74px 4px;}
+.bx-controls-direction .bx-prev{background:url(images/arrow.jpg) no-repeat 1px -96px;}
+.bx-controls-direction .bx-prev:hover{background-position:1px 0px}
+.bx-controls-direction .bx-next{background:url(images/arrow.jpg) no-repeat -76px -96px;}
+.bx-controls-direction .bx-next:hover{background-position:-76px 0px;}
 
 /*#############  twiter, blog, table ###############*/
 .twiter{background:#143655;border-bottom:3px solid #5ad2ff;
